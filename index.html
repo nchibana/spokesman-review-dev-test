@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>The Spokesman-Review Dev Test</title>
+</head>
+<body class="sans-serif fade-in">
+    <header class="mw7 center pa5 ph4-ns">
+        <p class="f3 f2-ns"><b>The Spokesman-Review's</b> local journalism has never been more
+            important to this community. And now we need your help.</p>
+        <p class="f5 f4-ns lh-copy">The reporters, photographers, designers and editors in our 
+           newsroom are working hard to keep Eastern Washington and North Idaho informed 
+           as the news seemingly changes minute-by-minute. We've even made parts of our
+           website free. But the newsroom that tells all of these stories now depends on
+           you and your support for our journalism.</p>
+    </header>
+    <main>
+        <!-- Staff Bios -->
+        <section class="nt4 w-100">
+            <div id="bio-info" class="mw7 pa5 ph4-ns center flex items-center flex-column flex-row-ns">
+                <div class="pr3-ns order-1 mb4 mb0-ns w-100 w-40-ns">
+                    <img src="images/_JESSE_TINSLEY_NEWSROOM_SCRAPBOOK_t450.jpg" class="db" id="bio-image">
+                </div>
+                <div class="pl3-ns w-100 w-60-ns order-2">
+                    <h1 id="bio-name" class="f5 f4-ns tr lh-title">Jesse Tinsley</h1>
+                    <p id="bio-copy" class="f7 f6-ns mt4 tr lh-copy">Meet Jesse Tinsley. As a certified drone
+                        pilot, this veteran Spokesman-Review photographer often can be seen
+                        capturing beautiful aerial photographs of our region. Sometimes
+                        though, the job requires getting down with the dogs.</p>
+                </div>
+            </div>
+            <div id="bio-line"></div>
+            <!-- Image Slider -->
+            <div class="wrap">
+                <ul id="gallery" class="is-set flex ma0 pa0">
+                    <li id="img-0" class="is-ref hover"><img src="images/_JESSE_TINSLEY_NEWSROOM_SCRAPBOOK_t450.jpg"></li>
+                    <li id="img-1" class="hover"><img src="images/MEEHAN2_t450.jpg"></li>
+                    <li id="img-2" class="hover"><img src="images/DON_t450.jpg"></li>
+                    <li id="img-3" class="hover"><img src="images/EMMA2_t450.jpg"></li>
+                    <li id="img-4" class="hover"><img src="images/AZARIA_t450.jpg"></li>
+                    <li id="img-5" class="hover"><img src="images/AMY_t450.jpg"></li>
+                    <li id="img-6" class="hover"><img src="images/ADAM_t450.jpg"></li>
+                    <li id="img-7" class="hover"><img src="images/VESTAL3_t450.jpg"></li>
+                    <li id="img-8" class="hover"><img src="images/ARIELLE_t450.jpg"></li>
+                    <li id="img-9" class="hover"><img src="images/CAMDEN_t450.jpg"></li>
+                    <li id="img-10" class="hover"><img src="images/MOLLY_t450.jpg"></li>
+                    <li id="img-11" class="hover"><img src="images/ROB_t450.jpg"></li>
+                </ul>
+            </div>
+        </section>
+        <!-- Call to Subscribe -->
+        <section class="mt5 w-100">
+            <div class="mw7 center pa4 ph3-ns">
+                <p class="f4 f3-ns tc"><b>How you can support our local journalism:</b></p>
+            </div>
+            <div class="mw7 center ph5 ph4-ns flex items-center flex-column flex-row-ns">
+                <div class="pr3-ns order-1 mb4 mb0-ns w-100 w-50-ns">
+                    <img src="images/NewsFronts_01.png">
+                </div>
+                <div class="pl3-ns w-100 w-50-ns order-2">
+                    <p class="f7 f6-ns mt4 tj lh-copy">One of the best and easiest ways to help keep our
+                        newsroom's local journalism alive is simply to subscribe. As our thank you, this
+                        link will take you to the most inexpensive subscription rates available. Unlimited
+                        access to our website and the e-edition of our newspaper starts at only $0.99 a
+                        month for the first two months. Home delivery and unlimited web access is as low
+                        as $1 a week.
+                    </p>
+                    <a class="w-100 tc f7 f6-ns link dim ph3 pv2 mb2 dib white br1 bg-black button" href="https://checkout.spokesman.com/" target="_blank"><b>Subscribe</b></a>
+                    <p class="tc small-print">or call Customer Care at <a href="https://www.spokesman.com/customer-service/" target="_blank">(509) 747-4422</a></p>
+                </div>
+            </div>
+            <!-- Call to Donate -->
+            <div class="mw7 center ph5 ph4-ns flex items-center flex-column flex-row-ns">
+                <div class="pl3-ns w-100 w-50-ns order-1">
+                    <p class="f7 f6-ns mt4 tj lh-copy">The Spokesman-Review works with local and national
+                        foundations to help fund some of the journalism in our newspaper. What makes this
+                        partnership unique is that we are one of the only news organizations in the nation
+                        to then release the copyright of these stories publicly through Creative Commons.
+                        That means the journalism funded by our community is actually owned by our community,
+                        not by our newspaper. All of this money goes directly to offsetting the salaries of
+                        reporters in our newsroom and is tax deductible.
+                    </p>
+                    <a class="w-100 tc f7 f6-ns link dim ph3 pv2 mb2 dib white br1 bg-black button" href="https://www.spokesman.com/support/spokesman/" target="_blank"><b>Donate</b></a>
+                </div>
+                <div class="pr3-ns order-2 mb4 mb0-ns w-100 w-50-ns pl3">
+                    <img src="images/NewsFronts_02.png">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <hr class="pa5 mt5">
+    </footer>
+    <script src="slider.js"></script>
+</body>
+</html>

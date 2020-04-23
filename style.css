@@ -199,6 +199,22 @@
     #gallery li {
         flex-basis: 50%;
     }
+
+    .moveOutLeft {
+      animation-name: fade-out;
+      animation-duration: 2s;
+      animation-timing-function: ease-in-out;
+  }
+  
+  .moveInRight {
+      animation-name: fade-in;
+      animation-duration: 2s;
+      animation-timing-function: ease-in-out;
+  }
+
+    #gallery {
+      transition: transform 5s ease;
+    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 767px) {
@@ -214,6 +230,22 @@
     
     #gallery li {
         flex-basis: 33.33333%;
+    }
+
+    .moveOutLeft {
+      animation-name: fade-out;
+      animation-duration: 2s;
+      animation-timing-function: ease-in-out;
+  }
+  
+  .moveInRight {
+      animation-name: fade-in;
+      animation-duration: 2s;
+      animation-timing-function: ease-in-out;
+  }
+
+    #gallery {
+      transition: transform 5s ease;
     }
 }
 
